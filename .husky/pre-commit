@@ -1,5 +1,4 @@
 npx prisma format
-npx prisma generate
 npm run typecheck
 
 # run tests (optional)
