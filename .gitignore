@@ -11,3 +11,7 @@ dist/
 .next/
 .wrangler/
 .svelte-kit/
+
+/src/generated/prisma
+
+/src/generated/prisma
