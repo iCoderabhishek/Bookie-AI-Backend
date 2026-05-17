@@ -1,5 +1,3 @@
-npx prisma format
 npm run typecheck
 
-# run tests (optional)
 # npm test

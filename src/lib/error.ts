@@ -1,4 +1,5 @@
-import type { Request, Response, NextFunction, RequestHandler } from "express";
+import type { Request, Response, NextFunction, RequestHandler, ErrorRequestHandler } from "express";
+import { ZodError } from "zod";
 
 
 export class ApiError extends Error {
