@@ -5,7 +5,7 @@ import formatUptime from "./lib/utils.js";
 import processRouter from "./routes/process.js"
 import errorHandler from "./middlewares/error.js";
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 8080
 
 const app = express()
 app.use(express.json())
